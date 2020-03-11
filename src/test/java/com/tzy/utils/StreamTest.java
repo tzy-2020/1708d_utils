@@ -11,7 +11,7 @@ public class StreamTest {
 	@Test
 	public void test() {
 		try {
-			FileInputStream fis = new  FileInputStream("d:/goods.txt");
+			FileInputStream fis = new  FileInputStream("D:/Batch/goods.txt");
 			//List<String> list = StreamUtil.read(this.getClass().getResourceAsStream("/goods.txt"));
 	        List<String> list = StreamUtil.read(fis);
 			for (String string : list) {
